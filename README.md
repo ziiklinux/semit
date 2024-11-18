@@ -1,4 +1,4 @@
-# semit
+## Semit
 
 Soluções Open Source Implementadas na Prefeitura Municipal de Garça
 
@@ -6,7 +6,7 @@ Durante meu estágio na Secretária Municipal de Inovação e Tecnologia da Pref
 
 O Novo Sistema de Gerenciamento de Atendimento (NOVOSGA) foi implementado para otimizar o fluxo de atendimento ao público nas unidades municipais. O NOVOSGA permite a configuração de serviços, definição de prioridades e gerenciamento de atendentes de forma personalizada.
 
-Funcionalidades Principais:
+# Funcionalidades Principais:
 
 Controle de filas de atendimento.
 
@@ -16,7 +16,7 @@ Integração com painéis de chamada de senhas.
 
 Relatórios e análises de desempenho.
 
-Tecnologias Utilizadas:
+# Tecnologias Utilizadas:
 
 PHP
 
