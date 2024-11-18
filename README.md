@@ -1,4 +1,4 @@
-## Semit
+# Semit
 
 Soluções Open Source Implementadas na Prefeitura Municipal de Garça
 
