@@ -1,3 +1,7 @@
+#CRÉDITOS https://gist.github.com/rhuandevops/fe72dc889ca5f8d9b67daf1d2d627be2
+
+
+
 # Neste tutorial, utilizarei um servidor Debian 11 para instalar o Novo SGA 2.0.8. No entanto, realizei testes com a versão 10 do Debian e também com as versões 20.04 e 22.04 do Ubuntu Server, e o processo funcionou perfeitamente em todas essas versões.
 
 O Novo SGA é um sistema de gerenciamento de filas de atendimento desenvolvido para locais que atendem ao público. Com o Novo SGA, é possível configurar serviços, definir prioridades e gerenciar atendentes de forma personalizada, adaptando o sistema às necessidades específicas de cada organização.
@@ -512,3 +516,6 @@ Acesse o navegador de internet para acessar o Novo SGA, ex.: http://ip-servidor/
 Vídeo 01: https://youtu.be/xwZDpG-4jQo?si=airSD1sDbtZfpSeF
 
 Vídeo 02: https://youtu.be/vi0SZ80uOe8?si=zczDOrxPc7fxPOeG
+
+#CRÉDITOS https://gist.github.com/rhuandevops/fe72dc889ca5f8d9b67daf1d2d627be2
+
