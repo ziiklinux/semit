@@ -2,25 +2,9 @@
 
 
 
-# Neste tutorial, utilizarei um servidor Debian 11 para instalar o Novo SGA 2.0.8. No entanto, realizei testes com a versão 10 do Debian e também com as versões 20.04 e 22.04 do Ubuntu Server, e o processo funcionou perfeitamente em todas essas versões.
 
-O Novo SGA é um sistema de gerenciamento de filas de atendimento desenvolvido para locais que atendem ao público. Com o Novo SGA, é possível configurar serviços, definir prioridades e gerenciar atendentes de forma personalizada, adaptando o sistema às necessidades específicas de cada organização.
 
-O Novo SGA é mais do que um sistema de controle de filas. Ao gerenciar o fluxo de atendimento, o sistema apresenta uma série de recursos que auxiliam na gerência e administração das unidades de atendimento. [Fonte](https://suporte.4yousee.com.br/pt-BR/support/solutions/articles/72000535945-novo-sga-sistema-de-gerenciamento-de-atendimento).
-
-Github da aplicação [clique aqui](https://github.com/novosga).
-
-Site oficial do desenvolvedor [clique aqui](http://novosga.org/).
-
-### Pré-requisitos:
-- Apache 2;
-- MariaDB 10.5 ou Mysql;
-- PHP 7.4 e depêndencias.
-Abordaremos a instalação dos mesmos neste tutorial.
-
-***Nota: siga este tutorial em um ambiente de testes antes de aplicar em um ambiente de produção.***
-
-### Instalação NovoSGA 2.0.8 no Debian server
+### Instalação NovoSGA 2.1.0 no Ubuntu server
 
 ***Nota**: é de suma importância que o servidor tenha uma quantidade razoável de memória RAM [ex.: acima de 2GB]*
 
@@ -111,15 +95,8 @@ cd /var/opt/
 ### Instalação do repositório PHP e seus pacotes adicionais
 
 ```bash
-apt install -y lsb-release ca-certificates apt-transport-https software-properties-common gnupg2
-
-echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/sury-php.list
-
-apt install curl vim wget unzip nano -y
-
-curl -fsSL  https://packages.sury.org/php/apt.gpg| gpg --dearmor -o /etc/apt/trusted.gpg.d/sury-keyring.gpg
-
-apt update
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
 ```
 
 Instalar o PHP e módulos/bibliotecas
