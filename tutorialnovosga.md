@@ -206,7 +206,7 @@ Baixe os pacotes do **Novo SGA 2.0.8**
 cd ~
 
 # aplicação
-composer create-project "novosga/novosga:2.0.8" ~/novosga -vvv
+composer create-project "novosga/novosga:^2.1" ~/novosga -vvv
 ```
 
 Vamos editar o arquivo ***composer.json***
